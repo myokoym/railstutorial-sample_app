@@ -2,6 +2,7 @@ rebecca:
   name: Rebecca Miyamoto
   email: miyamoto@momotsuki.ed.jp
   password_digest: <%= User.digest('password') %>
+  admin: true
 
 hazuki:
   name: Hazuki
